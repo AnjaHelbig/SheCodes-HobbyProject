@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9"
+      crossorigin="anonymous"
+    />
+
+    <title>SheCodes AddOn Project</title>
+    <style>
+      body {
+        background: #98b7f7;
+      }
+
+      button {
+        display: block;
+        margin: 0 auto;
+        color: black;
+        font-size: 30px;
+        padding: 10px 20px;
+        background-color: #98b7f7;
+        font-weight: bold;
+
+        border: solid;
+        border-color: #53719b;
+        border-radius: 50px;
+        margin-top: 50px;
+        margin-bottom: 50px;
+      }
+
+      .container {
+        max-width: 1000px;
+        background: white;
+        padding: 20px;
+
+        border-radius: 50px;
+        margin-top: 70px;
+        margin-bottom: 30px;
+      }
+
+      .flower {
+        font-size: 50px;
+      }
+
+      h1 {
+        text-align: center;
+        font-weight: bold;
+        margin-bottom: 30px;
+        margin-top: 30px;
+      }
+
+      h2 {
+        text-align: center;
+        margin-bottom: 30px;
+        font-weight: bold;
+      }
+
+      .largeImage {
+        display: block;
+        margin: 0 auto;
+        margin-bottom: 20px;
+      }
+
+      p {
+        font-size: 25px;
+        margin-top: 20px;
+        margin-bottom: 30px;
+        margin-left: 10px;
+        margin-right: 10px;
+        line-height: 2;
+      }
+
+      footer {
+        text-align: center;
+        font-weight: bold;
+        font-size: 20px;
+        margin-bottom: 30px;
+      }
+
+      .link {
+        display: block;
+        font-size: 25px;
+        text-decoration: none;
+        margin-bottom: 30px;
+      }
+
+      img {
+        width: 100%;
+        border-radius: 25px;
+      }
+
+      .grid {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 20px;
+      }
+
+      .largeImage:hover {
+        opacity: 0.9;
+        transform: scale(1.3);
+        transition: all 200ms ease-in-out;
+      }
+
+      .gridPictures:hover {
+        opacity: 0.9;
+        transform: scale(1.3);
+        transition: all 200ms ease-in-out;
+      }
+
+      .dark {
+        background: linear-gradient(
+          112.1deg,
+          rgb(32, 38, 57) 11.4%,
+          rgb(63, 76, 119) 70.2%
+        );
+        color: white;
+      }
+
+      .dark .container {
+        background: rgb(255, 255, 255, 0.2);
+      }
+
+      .dark a {
+        color: white;
+        font-weight: bold;
+      }
+
+      .dark button {
+        background-color: rgb(63, 76, 119);
+        border-color: rgb(32, 38, 57);
+        color: white;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <button id="top">Change Mode</button>
+      <h1>
+        <div class="flower">🌺</div>
+        <div>こんにちは, 私の名前はAnjaです</div>
+        <div>Hello, my name is Anja!</div>
+      </h1>
+
+      <h2>初めまして - Nice to meet you!</h2>
+
+      <img
+        src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/091/437/original/japan1200.jpg?1690555452"
+        alt=""
+        width="90%"
+        class="largeImage"
+      />
+
+      <div class="grid">
+        <img
+          src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/091/824/original/5326.png?1690912432"
+          alt=""
+          class="gridPictures"
+        />
+        <img
+          src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/091/825/original/Altstadt_Dunkel.png?1690912441"
+          alt=""
+          class="gridPictures"
+        />
+        <img
+          src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/091/827/original/Ramen.png?1690912459"
+          alt=""
+          class="gridPictures"
+        />
+        <img
+          src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/091/826/original/featured_205-.png?1690912447"
+          alt=""
+          class="gridPictures"
+        />
+      </div>
+
+      <p>
+        日本語はとてもすてきなことばです、そして日本はおもしろい国です
+        から、私は日本語をべんきょうしたいです。
+        <br />
+        I want to learn Japanese, because it's a great language and Japan a
+        faszinating country.
+        <br />
+        私は今もっていちねん日本語をべんきょしました。たのしいじゅぎょうですが、
+        ときどき むずかしいです。
+        <br />
+        I have been learning Japanese for a year now. It makes a lot of fun, but
+        is sometimes difficult.
+        <br />
+        日本へやすみにいきたいですから、毎日べんきょうします。
+        <br />
+        I learn every week, as I want to go to Japan for vacation.
+        <br />
+        KyotoとOsakaはきれいなまちです、Tokyoはいそがしです。そしてわしょくをとてもすきです。
+        <br />
+        Kyoto and Osaka are great cities, Tokyo is very busy. And I love
+        japanese food.
+        <br />
+        私の日本語があまりじょうずじゃありませんから、失礼してください!
+        <br />
+        Please excuse, as my Japanese is not yet good.
+      </p>
+
+      <a class="link" href="https://www.japan.travel/de/de/" target="_blank"
+        >👉 Check out the Japan Travel Site</a
+      >
+
+      <button id="bottom">Interested in learning Japanese?</button>
+    </div>
+
+    <footer>Coded by Anja ❤</footer>
+
+    <script>
+      function changeMode() {
+        let body = document.querySelector("body");
+
+        if (body.classList.contains("dark")) {
+          body.classList.remove("dark");
+        } else {
+          body.classList.add("dark");
+        }
+      }
+
+      function popUp() {
+        let name = prompt("What's your name?");
+        if (name.length === 0) {
+          alert("Did you forgot to enter your name😳?");
+        } else {
+          alert(
+            `こんにちは ${name}, start with Hiragana and Katakana first. Will make your life easier 🙃!`
+          );
+        }
+      }
+
+      let button = document.querySelector("#top");
+      button.addEventListener("click", changeMode);
+
+      let buttonTwo = document.querySelector("#bottom");
+      buttonTwo.addEventListener("click", popUp);
+    </script>
+  </body>
+</html>
